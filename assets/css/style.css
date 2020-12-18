@@ -141,12 +141,31 @@ transition: 0.3s;
 
 
 /*rep contatti*/
-.contatti{
+.concats{
 width: 100%;
 height: calc(100% - 240px);
 background-color: #ffffff;
 overflow-y: scroll;
 }
+.stile_concats{
+  height: 100px;
+  width: 100%;
+  border-bottom: 2px solid  #f9f9f9;
+}
+
+.concats img{
+  width: 69px;
+  height: 61px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.concats h2{
+margin-top: 15px;
+margin-left: 20px;
+}
+
 
 
 

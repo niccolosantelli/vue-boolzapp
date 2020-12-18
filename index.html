@@ -42,7 +42,12 @@
             </div>
 
           </div>
-          <div class="contatti">
+          <div class="concats">
+            <div class="stile_concats d-flex" v-for="persone in contatti">
+              <img :src="persone.img">
+              <h2>{{persone.nome}}</h2>
+
+            </div>
 
           </div>
 
@@ -80,6 +85,7 @@
   </div>
 
 
-
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
